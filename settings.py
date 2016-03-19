@@ -1,5 +1,5 @@
 import digitalocean
-manager = digitalocean.Manager(token="e27f9e754be5715465792f6be84d7de45bda0d47d0e608c804fa94f6417457cb")
+manager = digitalocean.Manager(token="")
 user = 'root'
 port = '22'
 interval = '30'
