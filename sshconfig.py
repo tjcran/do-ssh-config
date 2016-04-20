@@ -18,3 +18,7 @@ while count < len(droplets):
 	f.write(config % (name, ip, user, port, interval))
 	f.close()
 	count = count + 1
+f = open('ssh-config.txt', 'a')
+f.write(star)
+f.close()
+
